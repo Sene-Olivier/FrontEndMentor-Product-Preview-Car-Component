@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: #F3EAE3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container__left {
+    width: 50%;
+}
+
+.container__left img {
+    border-radius: 20px 0 0 20px;
+}
+
+.container__right {
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+    padding: 15px 20px 15px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container__right-subtitle {
+    color: grey;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.container__right-title {
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+}
+
+.container__right-product-description {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.container__right-prices {
+    display: flex;
+    justify-content: center;
+}
+
+.container__right-price {
+    color: #3E7F6A;
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+}
+
+.container__right-price--strike {
+    color: grey;
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.container__right-button {
+    background-color: #3E7F6A;
+    color: white;
+    width: 100%;
+    height: 12%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+
+.container__right-cart-img {
+    height: 40%;
+}
+
+.container__right-add-to-cart {
+    font-size: 0.8rem;
+    margin: 5px;
+}
